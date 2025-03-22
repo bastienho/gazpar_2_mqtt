@@ -1,7 +1,7 @@
-name: "Gazpar 2 MQTT"
+name: "Gazpar 2 Mqtt debug"
 description: "Extracts GRDF data into MQTT a.o."
 version: 0.8.9
-slug: "gazpar_2_mqtt"
+slug: "gazpar_2_mqtt_debug"
 init: false
 homeassistant_api: true
 arch:
