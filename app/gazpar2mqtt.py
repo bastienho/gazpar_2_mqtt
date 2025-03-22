@@ -692,8 +692,9 @@ def run(myParams):
             # Release memory
             del myHass
 
-        except:
+        except DebugError:
             logging.error("Home Assistant discovery mode : unable to publish value to mqtt broker")
+            logging.debug(DebugError)
             
     ####################################################################################################################
     # STEP 4a : Prices
