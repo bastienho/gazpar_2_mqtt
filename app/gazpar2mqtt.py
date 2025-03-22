@@ -693,7 +693,7 @@ def run(myParams):
             del myHass
 
         except DebugError:
-            logging.error("Home Assistant discovery mode : unable to publish value to mqtt broker")
+            logging.error("Home Assistant discovery mode : unable to publish value to mqtt broker (debug) ")
             logging.debug(DebugError)
             
     ####################################################################################################################
